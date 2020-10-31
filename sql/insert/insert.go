@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	db, err := sql.Open("mysql", "root:golearn@tcp(ec2-18-230-196-131.sa-east-1.compute.amazonaws.com:3306)/cursogo")
+	db, err := sql.Open("mysql", "root:password@tcp(host:3306):3306)/cursogo")
 	if err != nil {
 		panic(err)
 	}
